@@ -418,7 +418,7 @@ footer{background:var(--dc);color:rgba(255,244,230,.8);padding:3.5rem 0 2rem}
   <div class="ctr">
     <div class="agrd">
       <div class="avis rv">
-        <div class="abw"><img src="hampers-kuma.png" alt="" width="300" height="300" style="vertical-align: middle;"></div>
+        <div class="abw">🐻</div>
         <div class="acfl act"><span>🍪</span>Dibuat dengan cinta</div>
         <div class="acfl acb"><span>🌿</span>Komoditas lokal Jember</div>
       </div>
@@ -647,9 +647,9 @@ footer{background:var(--dc);color:rgba(255,244,230,.8);padding:3.5rem 0 2rem}
       <h2 class="stl">Yang Mereka Katakan<br>Tentang KUMA</h2>
     </div>
     <div class="tgrd">
-      <div class="tcard rv d1"><div class="tstr">★★★★★</div><p class="ttxt">"Choco Cookiesnya enak banget! Bisa kerasa cokelatnya lebih dalam, katanya memang dari kakao lokal Jember. Crispy dan wangi. Udah jadi cemilan wajib!"</p><div class="tauth"><div class="tav">😊</div><div><div class="tnam">Sari Dewi</div><div class="trol">Pelanggan Setia · Jember</div></div></div></div>
-      <div class="tcard rv d2"><div class="tstr">★★★★★</div><p class="ttxt">"Coffee Cookiesnya juara! Aroma kopi Jember-nya kerasa banget. Saya suka banget ide pake kopi lokal, berasa lebih authentic. Pesan lagi pasti!"</p><div class="tauth"><div class="tav">☕</div><div><div class="tnam">Rizky Pratama</div><div class="trol">Kopi Enthusiast · Surabaya</div></div></div></div>
-      <div class="tcard rv d3"><div class="tstr">★★★★★</div><p class="ttxt">"QR Code di kemasannya keren banget! Langsung bisa lihat komposisi dan pesan ulang. KUMA beneran inovatif, rasa lokal, packaging modern!"</p><div class="tauth"><div class="tav">🎯</div><div><div class="tnam">Nanda Putri</div><div class="trol">Content Creator · Malang</div></div></div></div>
+      <div class="tcard rv d1"><div class="tstr">★★★★★</div><p class="ttxt">"Choco Cookiesnya enak banget suer, Bisa kerasa cokelatnya lebih dalam, katanya memang dari kakao lokal Jember. Crispy dan wangi. Udah jadi cemilan wajib sihh"</p><div class="tauth"><div class="tav">😊</div><div><div class="tnam">Sari Dewi</div><div class="trol">Pelanggan Setia · Jember</div></div></div></div>
+      <div class="tcard rv d2"><div class="tstr">★★★★★</div><p class="ttxt">"Coffee Cookiesnya juara cuyy, Aroma kopi Jember-nya kerasa poll. Gua suka nih yang begini pake ide kopi lokal, berasa lebih authentic. bakal repeat order"</p><div class="tauth"><div class="tav">☕</div><div><div class="tnam">Rizky Pratama</div><div class="trol">kopi Enthusiast · Surabaya</div></div></div></div>
+      <div class="tcard rv d3"><div class="tstr">★★★★★</div><p class="ttxt">"QR Code di kemasannya jujur keren banget! Langsung bisa lihat komposisi dan pesan ulang. KUMA beneran inovatif, rasa lokal, packaging modern sih, patut dicoba"</p><div class="tauth"><div class="tav">🎯</div><div><div class="tnam">Nanda Putri</div><div class="trol">Content Creator · Malang</div></div></div></div>
     </div>
   </div>
 </section>
@@ -789,7 +789,7 @@ function updatePO(){
   const now=new Date(),d=now.getDay(),h=now.getHours(),op=d>=1&&d<=4&&h>=8&&h<17;
   document.getElementById('poBT').textContent=op?'OPEN ORDER':'CLOSED';
   document.getElementById('poMT').textContent=op?'Kami Sedang Buka!':'Sedang Tutup';
-  document.getElementById('poST').textContent=op?'Segera pesan sebelum stok habis ✨':'Buka kembali Senin–Kamis, 08.00–17.00 WIB';
+  document.getElementById('poST').textContent=op?'Segera pesan sebelum stok habis ✨':'Buka kembali Senin & Kamis, 08.00–17.00 WIB';
   const card=document.getElementById('poCard'),bdg=document.getElementById('poBdg');
   card.className='posc '+(op?'op':'cl');bdg.className='pobdg '+(op?'op':'cl');
 }
