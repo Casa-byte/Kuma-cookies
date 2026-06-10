@@ -1,7 +1,19 @@
-# 🐻 KUMA – Kukis Manis
+# 🌱 KUMA – Kukis Manis
 
-> **Freshly Baked Happiness in Every Bite**
-> Website bisnis cookies premium homemade dari Jember.
+> **Empowering Local Commodities Through Every Cookie**
+> Startup pangan lokal berbasis kakao dan kopi Jember dengan inovasi smart packaging, digitalisasi bisnis, dan zero waste production.
+> KUMA (KUkis MAnis) adalah startup pangan lokal yang mengolah komoditas unggulan Jember menjadi produk bernilai tambah melalui cookies berbahan kakao dan kopi lokal.
+
+Website ini dikembangkan sebagai media presentasi BizClash untuk menunjukkan bagaimana produk pangan lokal dapat dipadukan dengan inovasi, keberlanjutan, dan digitalisasi bisnis.
+
+Fokus utama KUMA bukan hanya menjual cookies, tetapi juga:
+
+- ✅ Pemanfaatan kakao lokal Jember
+- ✅ Pemanfaatan kopi lokal Jember
+- ✅ Zero Waste Production
+- ✅ Smart Packaging berbasis QR Code
+- ✅ Digital Ordering Platform
+- ✅ Peningkatan nilai tambah komoditas daerah
 
 ---
 
@@ -119,9 +131,7 @@ kuma-nextjs/
 │   └── images/
 │       └── products/
 │           ├── choco-cookies.jpg       # ← Taruh foto di sini
-│           ├── red-velvet-cookies.jpg
-│           ├── matcha-cookies.jpg
-│           └── triple-choco-cookies.jpg
+│           ├── coffee-cookies.jpg
 ├── .env                    # Environment variables
 ├── .env.example
 ├── next.config.ts
@@ -266,36 +276,18 @@ async function main() {
       {
         name: 'Choco Cookies',
         slug: 'choco-cookies',
-        description: 'Cookies coklat premium dengan dark chocolate chip pilihan.',
-        price: 35000,
-        calories: 180,
+        description: 'Cookies cokelat homemade menggunakan kakao lokal Jember yang membantu meningkatkan nilai tambah hasil pertanian daerah.',
+        price: 7000,
+        calories: 95,
         status: 'AVAILABLE',
         category: 'classic',
       },
       {
-        name: 'Red Velvet Cookies',
-        slug: 'red-velvet-cookies',
-        description: 'Perpaduan warna merah elegan dengan cream cheese.',
-        price: 40000,
-        calories: 190,
-        status: 'COMING_SOON',
-        category: 'premium',
-      },
-      {
-        name: 'Matcha Cookies',
-        slug: 'matcha-cookies',
-        description: 'Kesegaran matcha premium bertemu cookies renyah.',
-        price: 38000,
-        calories: 165,
-        status: 'COMING_SOON',
-        category: 'premium',
-      },
-      {
-        name: 'Triple Choco Cookies',
-        slug: 'triple-choco-cookies',
-        description: 'Tiga lapis dark, milk, dan white chocolate.',
-        price: 45000,
-        calories: 220,
+        name: 'Coffee Cookies',
+        slug: 'coffee-cookies',
+        description: 'Cookies dengan aroma kopi khas menggunakan kopi lokal Jember sehingga menghasilkan karakter rasa yang autentik.',
+        price: 7000,
+        calories: 95,
         status: 'COMING_SOON',
         category: 'premium',
       },
@@ -355,9 +347,7 @@ Ganti emoji 🍪 dengan:
 
 Lalu upload foto ke folder `images/products/` dengan nama:
 - `choco-cookies.jpg` ← Foto cookies coklat premium
-- `red-velvet-cookies.jpg`
-- `matcha-cookies.jpg`
-- `triple-choco-cookies.jpg`
+- `coffee-cookies.jpg`
 
 **Tips foto produk:**
 - Ukuran ideal: 800×600 px atau 1:1 ratio
@@ -400,6 +390,23 @@ Lalu upload foto ke folder `images/products/` dengan nama:
 2. Add PostgreSQL service
 3. Copy `DATABASE_URL` dari Railway
 4. Set sebagai environment variable di Vercel
+
+---
+
+# Business Impact
+
+### Economic Impact
+- Mendukung petani kakao lokal Jember
+- Mendukung petani kopi lokal Jember
+- Meningkatkan nilai tambah komoditas daerah
+
+### Environmental Impact
+- Mengurangi limbah produksi melalui konsep zero waste
+
+### Digital Impact
+- Smart Packaging QR Code
+- Digital Ordering System
+- Website Based Promotion
 
 ---
 
