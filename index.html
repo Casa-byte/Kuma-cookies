@@ -65,7 +65,7 @@ nav.sc{box-shadow:0 4px 24px var(--sw)}
 /* SECTION */
 section{position:relative;z-index:1}
 .ctr{max-width:1140px;margin:0 auto;padding:0 2rem}
-.sl{display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--ca);margin-bottom:.6rem}
+.sl{display:inline-block;font-size:1rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--ca);margin-bottom:.6rem}
 .stl{font-family:'Playfair Display',serif;font-size:clamp(1.9rem,4.5vw,2.9rem);color:var(--br);line-height:1.2;margin-bottom:.9rem}
 .sdsc{font-size:1rem;color:var(--tm);line-height:1.8;max-width:600px}
 /* HERO */
@@ -104,7 +104,7 @@ section{position:relative;z-index:1}
 /* ABOUT */
 #about{padding:7rem 0;background:var(--be)}
 [data-theme=dark] #about{background:#1F1008}
-.agrd{display:grid;grid-template-columns:1fr 1fr;gap:4.5rem;align-items:center}
+.agrd{display:grid;grid-template-columns: 0,1fr 0,1fr;gap:4.5rem;align-items:center;max-width:1140px;width:100%;margin:0 auto; box-sizing: border-box;}
 .avis{position:relative}
 .abw{width:300px;height:300px;background:var(--br);border-radius:40% 60% 55% 45%/55% 45% 60% 40%;display:flex;align-items:center;justify-content:center;font-size:9rem;animation:bwgl 5s ease-in-out infinite;box-shadow:0 20px 60px var(--sd);margin:0 auto; }
 @keyframes bwgl{0%,100%{border-radius:40% 60% 55% 45%/55% 45% 60% 40%;transform:rotate(0)}25%{border-radius:55% 45% 40% 60%/40% 60% 45% 55%;transform:rotate(2deg)}75%{border-radius:45% 55% 60% 40%/60% 40% 55% 45%;transform:rotate(-2deg)}}
@@ -417,7 +417,7 @@ footer{background:var(--dc);color:rgba(255,244,230,.8);padding:3.5rem 0 2rem}
 </section>
 
 <!-- ABOUT -->
-<section id="about"></section>
+<section id="about">
     <div class="agrd">
       <div class="avis rv">
         <div class="abw">
